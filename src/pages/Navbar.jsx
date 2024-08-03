@@ -50,11 +50,11 @@ const Navbar = () => {
     const [isCartOpen, setIsCartOpen] = React.useState(false);
 
     // Cart
-    const handleOpen Cart = () => {
+    const handleOpenCart = () => { //*********** */
         setIsCartOpen(true);
     };
 
-    const handleOpenCart = () => {
+    const handleCloseCart = () => {///********** */
         setIsCartOpen(false);
     };
 
